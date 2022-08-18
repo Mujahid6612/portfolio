@@ -17,7 +17,7 @@ const Main = () => {
           <p className="uppercase text-sm tracking-widest text-[#00df9a]">
             LET'S BUILD SOMETHING TOGETHER
           </p>
-          <h1 className="py-4 text-white">
+          <h1 className="py-4 md:text-6xl sm:text-4xl text-white">
             Hi, I'm{" "}
             <span className="text-[#00df9a]">
               <Typed
@@ -29,7 +29,7 @@ const Main = () => {
               />
             </span>
           </h1>
-          <h1 className="py-2 text-white">A Front-End Developer</h1>
+          <h1 className="py-2 md:text-6xl sm:text-4xl text-white">A Front-End Developer</h1>
           <p className="py-4 text-white max-w-[70%] m-auto">
             I’m a front-end react/react-native developer specializing in
             building android and web applications. Currently, I’m focused on

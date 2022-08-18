@@ -11,12 +11,12 @@ const resume = () => {
         <title>Mujahid | Resume</title>
         <meta
           name="description"
-          content="I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences."
+          content="Front-End Developer"
         />
         <link rel="icon" href="/fav.jpg" />
       </Head>
 
-      <div className="bg-black w-full flex justify-center pt-[120px]">
+      <div className="bg-black w-full h-full flex justify-center pt-[120px]">
         {/* <h2 className="text-center">Resume</h2> */}
         {/* <div className="bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center">
           <h2 className="text-center">Mujahid Ali</h2>
@@ -33,13 +33,14 @@ const resume = () => {
           </div>
         </div> */}
         <div style={{
-          width:'1030px'
+          width:'1030px',
+          height:'100vh'
         }} className="flex justify-center shadow-2xl shadow-[#00df9a] rounded-xl">
           <Image
             className="rounded-xl"
-            width={1024}
-            height={1080}
-            src="/../public/assets/CV.jpg"
+            width={1030}
+            height='100%'
+            src="/assets/CV.jpg"
             alt="/"
           />
         </div>

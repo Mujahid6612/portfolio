@@ -55,10 +55,10 @@ const Navbar = () => {
       <div className=' bg-black flex justify-between items-center w-full h-full px-2 2xl:px-16'>
         <Link href='/'>
           <Image
-            src='/../public/assets/navLogo.png'
+            src='/assets/navLogo.png'
             alt='/'
-            width='100'
-            height='60'
+            width='60'
+            height='50'
             className='cursor-pointer'
           />
         </Link>
@@ -119,9 +119,9 @@ const Navbar = () => {
             <div className='flex w-full items-center justify-between'>
               <Link href='/'>
                 <Image
-                  src='/../public/assets/navLogo.png'
-                  width='87'
-                  height='35'
+                  src='/assets/navLogo.png'
+                  width='60'
+                  height='50'
                   alt='/'
                 />
               </Link>
