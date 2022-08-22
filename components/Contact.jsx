@@ -4,13 +4,14 @@ import {
   AiOutlineMail,
   AiOutlineWhatsApp,
   AiFillFacebook,
+  AiFillPhone,
 } from "react-icons/ai";
+
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 
 const Contact = () => {
-
   return (
     <div id="contact" className="bg-black px-3 w-full">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full ">
@@ -39,8 +40,8 @@ const Contact = () => {
               </div>
               <div>
                 <p className="uppercase pt-8 text-[#00df9a]">Connect With Me</p>
-                <div className="flex items-center justify-between  py-4">
-                  <a href="https://web.whatsapp.com/" target="_blank">
+                <div className="flex items-center justify-start  py-4">
+                  {/* <a href="https://web.whatsapp.com/" target="_blank">
                     <div className="rounded-full shadow-lg shadow-[#00df9a] p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                       <AiOutlineWhatsApp className="text-[#00df9a]"  size={25} />
                     </div>
@@ -49,17 +50,31 @@ const Contact = () => {
                     <div className="rounded-full shadow-lg shadow-[#00df9a] p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                       <AiFillFacebook  className="text-[#00df9a]" size={25} />
                     </div>
-                  </a>
-                  <Link href="http://mujahidali6612@gmail.com">
-                    <div className="rounded-full shadow-lg shadow-[#00df9a] p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                      <AiOutlineMail  className="text-[#00df9a]" size={25} />
-                    </div>
-                  </Link>
-                  <Link href="/resume">
-                    <div className="rounded-full shadow-lg shadow-[#00df9a] p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                  </a> */}
+                  <div className="flex flex-col w-full">
+                    <Link href={""}>
+                      <div className="flex rounded shadow-lg shadow-[#00df9a] p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                        <AiOutlineMail className="text-[#00df9a]" size={25} />
+                        <p className="ml-3 text-[#00df9a] ">
+                          mujahidali6612@gmail.com
+                        </p>
+                      </div>
+                    </Link>
+                    <Link href={""}>
+                      <div className="flex rounded shadow-lg shadow-[#00df9a] p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                        <AiFillPhone className="text-[#00df9a]" size={25} />
+                        <p className="ml-3 text-[#00df9a] ">
+                          (+92) 0311-4103274
+                        </p>
+                      </div>
+                    </Link>
+                  </div>
+
+                  {/* <Link href="/resume">
+                    <div className="ml-6 rounded-full shadow-lg shadow-[#00df9a] p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                       <BsFillPersonLinesFill  className="text-[#00df9a]" size={25} />
                     </div>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>

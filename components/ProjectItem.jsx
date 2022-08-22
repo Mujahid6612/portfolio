@@ -11,7 +11,7 @@ const ProjectItem = ({ title, backgroundImg, projectUrl }) => {
         alt="/"
       />
       <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
-        <h3 className="text-2xl text-white tracking-wider text-center">
+        <h3 className="xs:text-xl md:text-2xl text-white tracking-wider text-center">
           {title}
         </h3>
         <p className="pb-4 pt-2 text-white text-center">React Native</p>
