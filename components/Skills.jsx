@@ -43,6 +43,14 @@ const Skills = () => {
               img: "/assets/skills/react.png",
               title: "React-Native",
             },
+            {
+              img: "/assets/skills/github1.png",
+              title: "Github",
+            },
+            {
+              img: "/assets/skills/antdesign.png",
+              title: "AntDesign",
+            },
           ].map(({ img, title }) => (
             <div
               key={title}
@@ -52,8 +60,10 @@ const Skills = () => {
                 <div className="m-auto">
                   <Image
                     style={{
-                      background: title === "Nextjs" ? "white" : "",
-                      borderRadius: title === "Nextjs" ? 100 : 0,
+                      background:
+                        title === "Nextjs" || title === "Github" ? "white" : "",
+                      borderRadius:
+                        title === "Nextjs" || title === "Github" ? 100 : 0,
                     }}
                     src={img}
                     width="64px"

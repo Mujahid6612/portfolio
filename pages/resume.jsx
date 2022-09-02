@@ -40,12 +40,24 @@ const resume = () => {
           </p>
         </div>
         <p className="text-white px-2">
-          A graduated with a degree in Information Technology with Computer
+          I am a react/react-native developer with 2 years of experience
+          specializing in Web and Mobile app development, And throughout those
+          years i had the oppotunity to work mainly with React and React-native
+          with amazing companies. I am a Professional computer programmer with
+          the knowledge of different programming languages like, HTML, CSS,
+          JAVASCRIPT, React, React-native, Tailwind CSS and Nextjs.
+          {/* A graduated with a degree in Information Technology with Computer
           Skills in Web and App (Front-End) Development.Having experience more
-          than 1 year Web and Mobile App development using advanced tools.
-          Looking to contribute my skills to the development team at any
-          Software Company. As a creative person, I truly enjoy working in a
-          team. I am friendly, direct and good at motivating people.
+          than 1 year Web and Mobile App development using advanced tools. */}
+          {/* Looking to contribute my skills to the development team at any
+          Software Company. 
+          As a creative person, I truly enjoy working in a team. I am friendly,
+          direct and good at motivating people.*/}
+        </p>
+        <p className="text-white px-2 pt-2">
+          Looking to contribute my skills to the development team that suit my
+          skills & and ability to grow further. I am a quick leaner and ready to
+          take new challenges required to performe better.
         </p>
         {/* skills */}
         <div className="text-center py-4">
@@ -70,15 +82,17 @@ const resume = () => {
           </p>
         </div>
 
-   {/* education */}
-   <div className="text-center py-4">
+        {/* education */}
+        <div className="text-center py-4">
           <h5 className="text-center text-[#00df9a] underline text-[18px] py-2">
             Education Attainment
           </h5>
           <p className="py-2 text-white">
-            <span className="font-bold text-[#00df9a]">University of punjab</span>
+            <span className="font-bold text-[#00df9a]">
+              University of punjab
+            </span>
             <span className="px-2">|</span>Bachelor in Information Technology
-            <span className="px-2">|</span> 2018 - 2020 
+            <span className="px-2">|</span> 2018 - 2020
           </p>
 
           <p className="py-2 text-white">

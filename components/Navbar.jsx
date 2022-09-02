@@ -195,8 +195,8 @@ const Navbar = () => {
                 </Link>
 
                 <Link href={""}>
-                  <div className="flex rounded-full shadow-lg shadow-gray-400 py-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <AiFillPhone className="ml-2 text-[black]" size={25} />
+                  <div className="flex py-2 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <AiFillPhone className="ml-2 text-[black]" size={20} />
                     <p className="ml-3 text-[black] ">(+92) 0311-4103274</p>
                   </div>
                 </Link>

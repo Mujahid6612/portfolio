@@ -13,21 +13,23 @@ const About = () => {
             I am react/react-native developer
           </p>
           <p className="py-2 text-white">
-            I have spent the last 2 years in the app service, working as a
-            professional react & react-native developer. I have always had a
-            knack for technology and working with computers. In 2019 I started
-            working with HTML & CSS to make some small demo websites that I was
-            working. What I thought was just a few small effort turned into a
-            love for programming.
+            I have spent the last 2 years in the app development, working as a
+            professional react & react-native developer. In 2019 I started
+            working with HTML , CSS and wordPress to make some small demo
+            websites that I was working. What I thought was just a few small
+            effort turned into a love for web and mobile application
+            development.
+            {/* I have always had a
+            knack for technology and working with computers. */}
           </p>
           <p className="py-2 text-white">
             Fascinated with how intricate programming can be, I was quickly
-            drawn to learn more. I started learning javascript,python,react &
-            react-native and was even more enthused with making mobile apps and
-            websites interactive. I then started working for e-commerce
-            companies on the react/react-native platform. I am now spending my
-            time building projects with React JS & React-native, Firebase, and
-            learning new technologies.
+            drawn to learn more.Then i started learning javascript, python,
+            react & react-native and was even more enthused with making mobile
+            apps and websites interactive. I then started working for different
+            companies on the react/react-native platform. Now i am spending my
+            time building projects in React with Tailwind and learning new
+            technologies.
           </p>
           <a href="/#projects">
             <p className="py-2 text-[#00df9a] underline cursor-pointer">

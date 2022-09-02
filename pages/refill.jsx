@@ -43,7 +43,9 @@ const refill = () => {
             available so you can signup & signin in order to save your favorite
             Products. This is continueing app...
           </p>
-          <button className="px-8 py-2 mt-4 mr-8">Demo</button>
+          <a target={"_blank"} href={"https://www.refillsa.com/"}>
+            <button className="px-8 py-2 mt-4 mr-8">Demo</button>
+          </a>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
           <div className="p-2">
