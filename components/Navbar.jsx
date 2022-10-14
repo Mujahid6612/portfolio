@@ -9,7 +9,7 @@ import {
   AiOutlineMenu,
   AiFillPhone,
 } from "react-icons/ai";
-import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { useRouter } from "next/router";
 
@@ -184,49 +184,39 @@ const Navbar = () => {
                 Let's Connect
               </p>
 
-              <div className="flex flex-col my-8 w-full sm:w-[80%]">
-                <Link href={""}>
-                  <div className=" py-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <AiOutlineMail className="ml-2 text-[black]" size={25} />
-                    <p className="text-[black] ">
-                      mujahidali6612@gmail.com
-                    </p>
-                  </div>
-                </Link>
-
-                <Link href={""}>
-                  <div className="flex py-2 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <AiFillPhone className="ml-2 text-[black]" size={20} />
-                    <p className="ml-3 text-[black] ">(+92) 0311-4103274</p>
-                  </div>
-                </Link>
-              </div>
-              {/* <div className='flex items-center justify-between my-8 w-full sm:w-[80%]'>
-                <a
-              href='https://web.whatsapp.com/'
-              target='_blank'
-                >
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                  <AiOutlineWhatsApp />
+              <div className="flex items-center justify-between my-8 w-full sm:w-[80%]">
+               
+                <a href="https://www.facebook.com/" target="_blank">
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                    <AiFillFacebook />
                   </div>
                 </a>
-                <a href='https://www.facebook.com/' target='_blank'>
-
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                  <AiFillFacebook  />
+                <Link href='https://www.instagram.com/mujahidali4997/'>
+                  <div
+                    onClick={() => setNav(!nav)}
+                    className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
+                  >
+                    <FaInstagram />
                   </div>
-                </a>
-                <Link href='http://mujahidali6612@gmail.com'>
-                  <div onClick={()=>setNav(!nav)} className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                </Link>
+                <Link href="http://mujahidali6612@gmail.com">
+                  <div
+                    onClick={() => setNav(!nav)}
+                    className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
+                  >
                     <AiOutlineMail />
                   </div>
                 </Link>
-                <Link href='/resume'>
-                  <div onClick={()=>setNav(!nav)} className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                <Link href=''>
+                  <div
+                    onClick={() => setNav(!nav)}
+                    className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
+                  >
                     <BsFillPersonLinesFill />
                   </div>
                 </Link>
-              </div> */}
+               
+              </div>
             </div>
           </div>
         </div>

@@ -8,7 +8,7 @@ import {
 } from "react-icons/ai";
 
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebook, FaInstagram } from "react-icons/fa";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 
 const Contact = () => {
@@ -40,7 +40,7 @@ const Contact = () => {
               </div>
               <div>
                 <p className="uppercase pt-8 text-[#00df9a]">Connect With Me</p>
-                <div className="flex items-center justify-start  py-4">
+                <div className="flex flex-col justify-start  py-4">
                   {/* <a href="https://web.whatsapp.com/" target="_blank">
                     <div className="rounded-full shadow-lg shadow-[#00df9a] p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                       <AiOutlineWhatsApp className="text-[#00df9a]"  size={25} />
@@ -60,21 +60,19 @@ const Contact = () => {
                         </p>
                       </div>
                     </Link>
-                    <Link href={""}>
+                    <Link href='https://web.facebook.com/profile.php?id=100076833499139&sk=about/'>
                       <div className="flex rounded shadow-lg shadow-[#00df9a] p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                        <AiFillPhone className="text-[#00df9a]" size={25} />
-                        <p className="ml-3 text-[#00df9a] ">
-                          (+92) 0311-4103274
-                        </p>
+                        <FaFacebook className="text-[#00df9a]" size={25} />
+                        <p className="ml-3 text-[#00df9a] ">Facebook</p>
+                      </div>
+                    </Link>
+                    <Link href='https://www.instagram.com/mujahidali4997/'>
+                      <div className="flex rounded shadow-lg shadow-[#00df9a] p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                        <FaInstagram className="text-[#00df9a]" size={25} />
+                        <p className="ml-3 text-[#00df9a] ">Instagram</p>
                       </div>
                     </Link>
                   </div>
-
-                  {/* <Link href="/resume">
-                    <div className="ml-6 rounded-full shadow-lg shadow-[#00df9a] p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                      <BsFillPersonLinesFill  className="text-[#00df9a]" size={25} />
-                    </div>
-                  </Link> */}
                 </div>
               </div>
             </div>

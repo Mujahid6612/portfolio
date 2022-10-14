@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { FaGithub, FaInstagram ,FaFacebook} from "react-icons/fa";
 import resumeImg from "../public/assets/CV.jpg";
 import Image from "next/image";
 
@@ -17,26 +17,26 @@ const resume = () => {
         <h2 className="text-center text-[#00df9a]">Resume</h2>
         <div className="bg-[#00df9a] my-4 p-4 w-full flex justify-between items-center">
           <h2 className="text-center text-white">Mujahid Ali</h2>
-          {/* <div className="flex text-white">
+          <div className="flex text-white">
             <a
-              // href='https://www.linkedin.com/in/clint-briley-50056920a/'
+              href='https://web.facebook.com/profile.php?id=100076833499139&sk=about/'
               target="_blank"
             >
-              <FaLinkedinIn size={20} style={{ marginRight: "1rem" }} />
+              <FaFacebook size={20} style={{ marginRight: "1rem" }} />
             </a>
             <a
-              //  href='https://github.com/fireclint'
+               href='https://www.instagram.com/mujahidali4997/'
               target="_blank"
             >
-              <FaGithub size={20} style={{ marginRight: "1rem" }} />
+              <FaInstagram size={20} style={{ marginRight: "1rem" }} />
             </a>
-          </div> */}
+          </div>
         </div>
 
         <div className="text-center text-[#00df9a] py-4 text-xl font-bold uppercase tracking-wider">
           <p>
             App Development <span className="px-1">|</span> Web Development{" "}
-            <span className="px-1">|</span> Complex Problem Solving
+            <span className="px-1">|</span> Problem Solving
           </p>
         </div>
         <p className="text-white px-2">
@@ -62,7 +62,7 @@ const resume = () => {
         {/* skills */}
         <div className="text-center py-4">
           <h5 className="text-center text-[#00df9a] underline text-[18px] py-2">
-            Skills
+            SKILLES
           </h5>
           <p className="py-2 text-white">
             <span className="font-bold text-[#00df9a]">Technical Skills</span>
@@ -85,7 +85,7 @@ const resume = () => {
         {/* education */}
         <div className="text-center py-4">
           <h5 className="text-center text-[#00df9a] underline text-[18px] py-2">
-            Education Attainment
+            EDUCATION ATTAINMENT
           </h5>
           <p className="py-2 text-white">
             <span className="font-bold text-[#00df9a]">
@@ -114,10 +114,10 @@ const resume = () => {
         {/* Experience */}
         <div className="py-4 px-2 text-white">
           <h5 className="text-center text-[#00df9a] underline text-[18px] py-4">
-            Professional Experience
+            PROFESSIONAL EXPERIENCE
           </h5>
           <p className="italic">
-            <span className="font-bold text-[#00df9a]">Remotely Working</span>
+            <span className="font-bold text-[#00df9a]">CURRENT : Remotely Working</span>
             <span className="px-2">|</span>Lahore,Punjab pakistan
           </p>
           <p className="py-1 italic text-[#00df9a]">Freelancing (Current)</p>
@@ -129,7 +129,7 @@ const resume = () => {
         <div className="py-4 px-2 text-white">
           <p className="italic">
             <span className="font-bold text-[#00df9a]">
-              PIKES SOFT ( ideas to reality )
+              1- PIKES SOFT ( ideas to reality )
             </span>
             <span className="px-2">|</span>Joher Town, Lahore Pakistan
           </p>
@@ -141,7 +141,7 @@ const resume = () => {
           <p className="py-1 italic text-[#00df9a]">
             React Native Developer (6 months )
           </p>
-          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+          {/* <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
               The software solutions developed by this company are numerously
               recognized for usability and innovative features.
@@ -160,17 +160,17 @@ const resume = () => {
               your account with an Google, Facebook account in order to save
               your favorite products.
             </li>
-          </ul>
-          <a href="/#projects">
+          </ul> */}
+          {/* <a href="/#projects">
             <p className="py-2 text-[#00df9a] underline cursor-pointer">
               Click here for more project info...
             </p>
-          </a>
+          </a> */}
         </div>
         {/* Experience */}
         <div className="py-4 px-2 text-white">
           <p className="italic">
-            <span className="font-bold text-[#00df9a]">ASSENCO</span>
+            <span className="font-bold text-[#00df9a]">2- ASSENCO</span>
             <span className="px-2">|</span>Fayha Jeddah, Saudi Arabia
           </p>
           <a href="http://www.assnco-me.com//">
@@ -181,7 +181,7 @@ const resume = () => {
           <p className="py-1 italic text-[#00df9a]">
             React Native Developer (6 months )
           </p>
-          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+          {/* <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
               Made using by Custome Hooks and useContext with Firebase DB
               integration
@@ -201,7 +201,7 @@ const resume = () => {
             <p className="py-2 text-[#00df9a] underline cursor-pointer">
               Click here for more project info...
             </p>
-          </a>
+          </a> */}
         </div>
       </div>
     </>
