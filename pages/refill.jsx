@@ -4,8 +4,6 @@ import refillImg from "../public/assets/projects/refill.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { FaReact } from "react-icons/fa";
-import { SiFirebase, SiGooglemaps } from "react-icons/si";
 
 const refill = () => {
   return (
