@@ -1,207 +1,77 @@
 import React from "react";
 import Head from "next/head";
-import { FaGithub, FaInstagram ,FaFacebook} from "react-icons/fa";
-import resumeImg from "../public/assets/CV.jpg";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 const resume = () => {
+  const resumePages = [
+    "/assets/My-Resume/Mujahid_Ali_Resume_page-0001.jpg",
+    "/assets/My-Resume/Mujahid_Ali_Resume_page-0002.jpg",
+    "/assets/My-Resume/Mujahid_Ali_Resume_page-0003.jpg",
+    "/assets/My-Resume/Mujahid_Ali_Resume_page-0004.jpg",
+    "/assets/My-Resume/Mujahid_Ali_Resume_page-0005.jpg",
+  ];
+
   return (
     <>
       <Head>
-        <title>Mujahid | Resume</title>
-        <meta name="description" content="Front-End Developer" />
-        <link rel="icon" href="/fav.jpg" />
+        <title>Mujahid Ali | Resume</title>
+        <meta name="description" content="Mujahid Ali's professional resume." />
+        <link rel="icon" href="/fav.png" /> {/* Assuming fav.png exists */}
       </Head>
 
-      <div className="shadow-2xl shadow-[#00df9a] rounded-xl bg-black mx-auto xs:w-[343px] md:w-[900px] pt-[120px]">
-        <h2 className="text-center text-[#00df9a]">Resume</h2>
-        <div className="bg-[#00df9a] my-4 p-4 w-full flex justify-between items-center">
-          <h2 className="text-center text-white">Mujahid Ali</h2>
-          <div className="flex text-white">
-            <a
-              href='https://web.facebook.com/profile.php?id=100076833499139&sk=about/'
-              target="_blank"
-            >
-              <FaFacebook size={20} style={{ marginRight: "1rem" }} />
-            </a>
-            <a
-               href='https://www.instagram.com/mujahidali4997/'
-              target="_blank"
-            >
-              <FaInstagram size={20} style={{ marginRight: "1rem" }} />
-            </a>
+      <div className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-black relative overflow-hidden">
+        {/* Animated background elements */}
+        <div className="absolute inset-0 overflow-hidden">
+          <div className="absolute -inset-[10px] opacity-50">
+            <div className="absolute top-0 -left-4 w-72 h-72 bg-purple-500 rounded-full mix-blend-multiply filter blur-xl animate-blob"></div>
+            <div className="absolute top-0 -right-4 w-72 h-72 bg-[#00df9a] rounded-full mix-blend-multiply filter blur-xl animate-blob animation-delay-2000"></div>
+            <div className="absolute -bottom-8 left-20 w-72 h-72 bg-blue-500 rounded-full mix-blend-multiply filter blur-xl animate-blob animation-delay-4000"></div>
           </div>
         </div>
 
-        <div className="text-center text-[#00df9a] py-4 text-xl font-bold uppercase tracking-wider">
-          <p>
-            App Development <span className="px-1">|</span> Web Development{" "}
-            <span className="px-1">|</span> Problem Solving
-          </p>
-        </div>
-        <p className="text-white px-2">
-          I am a react/react-native developer with 2 years of experience
-          specializing in Web and Mobile app development, And throughout those
-          years i had the oppotunity to work mainly with React and React-native
-          with amazing companies. I am a Professional computer programmer with
-          the knowledge of different programming languages like, HTML, CSS,
-          JAVASCRIPT, React, React-native, Tailwind CSS and Nextjs.
-          {/* A graduated with a degree in Information Technology with Computer
-          Skills in Web and App (Front-End) Development.Having experience more
-          than 1 year Web and Mobile App development using advanced tools. */}
-          {/* Looking to contribute my skills to the development team at any
-          Software Company. 
-          As a creative person, I truly enjoy working in a team. I am friendly,
-          direct and good at motivating people.*/}
-        </p>
-        <p className="text-white px-2 pt-2">
-          Looking to contribute my skills to the development team that suit my
-          skills & and ability to grow further. I am a quick leaner and ready to
-          take new challenges required to performe better.
-        </p>
-        {/* skills */}
-        <div className="text-center py-4">
-          <h5 className="text-center text-[#00df9a] underline text-[18px] py-2">
-            SKILLES
-          </h5>
-          <p className="py-2 text-white">
-            <span className="font-bold text-[#00df9a]">Technical Skills</span>
-            <span className="px-2">|</span>HTML
-            <span className="px-2">|</span> CSS <span className="px-2">|</span>
-            JavaScript <span className="px-2">|</span>Nextjs
-            <span className="px-2">|</span>Tailwind
-            <span className="px-2">|</span> Firebase
-          </p>
-
-          <p className="py-2 text-white">
-            <span className="font-bold text-[#00df9a]">
-              Front-End Development
-            </span>
-            <span className="px-2">|</span>React
-            <span className="px-2">|</span>React-Native
-          </p>
-        </div>
-
-        {/* education */}
-        <div className="text-center py-4">
-          <h5 className="text-center text-[#00df9a] underline text-[18px] py-2">
-            EDUCATION ATTAINMENT
-          </h5>
-          <p className="py-2 text-white">
-            <span className="font-bold text-[#00df9a]">
-              University of punjab
-            </span>
-            <span className="px-2">|</span>Bachelor in Information Technology
-            <span className="px-2">|</span> 2018 - 2020
-          </p>
-
-          <p className="py-2 text-white">
-            <span className="font-bold text-[#00df9a]">
-              Degree College, Walton Lahore
-            </span>
-            <span className="px-2">|</span>intermediate in ICS
-            <span className="px-2">|</span>2016 - 2018
-          </p>
-
-          <p className=" ml-14 py-2 text-white">
-            <span className="font-bold text-[#00df9a]">
-              High School, Model Town Lahore
-            </span>
-            <span className="px-2">|</span>Metric in Science
-            <span className="px-2">|</span>2014 - 2016
-          </p>
-        </div>
-        {/* Experience */}
-        <div className="py-4 px-2 text-white">
-          <h5 className="text-center text-[#00df9a] underline text-[18px] py-4">
-            PROFESSIONAL EXPERIENCE
-          </h5>
-          <p className="italic">
-            <span className="font-bold text-[#00df9a]">CURRENT : Remotely Working</span>
-            <span className="px-2">|</span>Lahore,Punjab pakistan
-          </p>
-          <p className="py-1 italic text-[#00df9a]">Freelancing (Current)</p>
-          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
-            <li>Working as a react developer with Tailwind css</li>
-          </ul>
-        </div>
-        {/* Experience */}
-        <div className="py-4 px-2 text-white">
-          <p className="italic">
-            <span className="font-bold text-[#00df9a]">
-              1- PIKES SOFT ( ideas to reality )
-            </span>
-            <span className="px-2">|</span>Joher Town, Lahore Pakistan
-          </p>
-          <a href="https://www.pikessoft.com/">
-            <p className="py-2 text-[#00df9a] underline cursor-pointer">
-              Visit company site for more info...
-            </p>
-          </a>
-          <p className="py-1 italic text-[#00df9a]">
-            React Native Developer (6 months )
-          </p>
-          {/* <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
-            <li>
-              The software solutions developed by this company are numerously
-              recognized for usability and innovative features.
-            </li>
-            <li>Made using by redux-tookit and readux-saga</li>
-            <li>
-              This app named as Keyki was built using React Native and is hosted
-              on specific sever
-            </li>
-            <li>
-              Users are able to search Products based on the names, rating, or
-              catagory to retrieve a list of active Products currently for sale.
-            </li>
-            <li>
-              User authentication is available so you can signup & signin to
-              your account with an Google, Facebook account in order to save
-              your favorite products.
-            </li>
-          </ul> */}
-          {/* <a href="/#projects">
-            <p className="py-2 text-[#00df9a] underline cursor-pointer">
-              Click here for more project info...
-            </p>
-          </a> */}
-        </div>
-        {/* Experience */}
-        <div className="py-4 px-2 text-white">
-          <p className="italic">
-            <span className="font-bold text-[#00df9a]">2- ASSENCO</span>
-            <span className="px-2">|</span>Fayha Jeddah, Saudi Arabia
-          </p>
-          <a href="http://www.assnco-me.com//">
-            <p className="py-2 text-[#00df9a] underline cursor-pointer">
-              Visit company site for more info...
-            </p>
-          </a>
-          <p className="py-1 italic text-[#00df9a]">
-            React Native Developer (6 months )
-          </p>
-          {/* <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
-            <li>
-              Made using by Custome Hooks and useContext with Firebase DB
-              integration
-            </li>
-            <li>
-              This app named as REfill was built using React Native and is
-              hosted on specific sever
-            </li>
-            <li>
-              Our service's reputation, evidenced by a list of successes &
-              repeat clients is based upon high-quality construction,
-              fabrication, IT Support in the shortest possible time, at very
-              competitive prices.
-            </li>
-          </ul>
-          <a href="/#projects">
-            <p className="py-2 text-[#00df9a] underline cursor-pointer">
-              Click here for more project info...
-            </p>
-          </a> */}
+        <div className="relative w-full px-4 py-16">
+          <motion.div 
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            className="max-w-[1240px] mx-auto"
+          >
+            <motion.h2 
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.5, delay: 0.2 }}
+              className="text-center text-5xl font-bold text-[#00df9a] py-8 mb-12"
+            >
+              Resume
+            </motion.h2>
+            
+            <div className="flex flex-col items-center gap-12">
+              {resumePages.map((page, index) => (
+                <motion.div
+                  key={index}
+                  initial={{ opacity: 0, y: 50 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: index * 0.2 }}
+                  whileHover={{ scale: 1.02, transition: { duration: 0.2 } }}
+                  className="w-full max-w-screen-md group"
+                >
+                  <div className="relative shadow-2xl shadow-[#00df9a]/20 rounded-xl overflow-hidden transform transition-all duration-300 hover:shadow-[#00df9a]/40">
+                    <div className="absolute inset-0 bg-gradient-to-r from-[#00df9a]/10 to-purple-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <Image
+                      src={page}
+                      alt={`Resume Page ${index + 1}`}
+                      layout="responsive"
+                      width={800}
+                      height={1000}
+                      objectFit="contain"
+                      className="transform transition-transform duration-300 group-hover:scale-[1.01]"
+                    />
+                  </div>
+                </motion.div>
+              ))}
+            </div>
+          </motion.div>
         </div>
       </div>
     </>
