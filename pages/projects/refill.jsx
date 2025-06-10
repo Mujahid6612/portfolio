@@ -1,11 +1,11 @@
 import Image from "next/image";
 import React from "react";
-import keykiImg from "../public/assets/projects/keyki2.png";
+import refillImg from "../../public/assets/projects/refill.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 import { motion } from "framer-motion";
 
-const keyki = () => {
+const refill = () => {
   return (
     <div className="w-full bg-gradient-to-b from-black to-gray-900 text-white">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
@@ -13,8 +13,8 @@ const keyki = () => {
         <Image
           className="absolute z-1 object-cover"
           layout="fill"
-          src={keykiImg}
-          alt="Keyki App"
+          src={refillImg}
+          alt="Refill App"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
           <motion.h2 
@@ -23,7 +23,7 @@ const keyki = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            E-commerce Video Platform (Keyki)
+            Medical E-commerce App (Refill)
           </motion.h2>
           <motion.h3 
             className="text-xl md:text-2xl text-[#00df9a]"
@@ -31,7 +31,7 @@ const keyki = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            React Native / Redux / Video Integration
+            React Native / Firebase / Google Maps APIs
           </motion.h3>
         </div>
       </div>
@@ -46,11 +46,11 @@ const keyki = () => {
           <p className="text-xl tracking-widest uppercase text-[#00df9a] font-semibold">Project</p>
           <h2 className="py-4 text-3xl font-bold">Overview</h2>
           <p className="text-gray-300 text-lg leading-relaxed">
-            This app, known as Keyki, is an e-commerce platform similar to Daraz, with a strong focus on video content. I contributed to code reviews and team leadership for this project, which was built using React Native.
-            Key features and technologies involved included React Hooks, Custom Hooks, Redux, Redux Toolkit, Redux-saga for state management, and integration of video player functionalities. I also focused on optimizing React Native code to improve app performance by minimizing unnecessary re-rendering. Additionally, I designed and implemented a carousel component to enhance user engagement through image display and integrated REST APIs for data communication.
-            The app supports user authentication with Google and Facebook accounts, allowing users to save their favorite products.
+            This app, named Refill, is a private medicine distribution/buying application for medical supplies and healthcare products. I developed this app using React Native, incorporating React Hooks, Custom Hooks, Firebase for the backend, and Google Maps APIs for location-based features.
+            The app consists of two internal parts: one for Patients and one for Drivers. Patients can order medicine, consult with doctors, and chat with their assigned doctor or driver. They can also track the live location of their driver during delivery. Patient users can search their order history by Order ID and view the current status of their orders. Drivers can select suitable orders for delivery, communicate with patients and operation managers, and cancel orders with specified reasons. Both user types can view product information and details.
+            User authentication is available, allowing users to sign up and sign in to save their favorite products. I also focused on enhancing the UI/UX by fixing issues and ensuring alignment with Figma designs, and collaborated on bug fixes, feature additions, and code reviews to maintain coding standards.
           </p>
-          <a target="_blank" href="https://www.keyki.pk/" rel="noopener noreferrer">
+          <a target="_blank" href="https://www.refillsa.com/" rel="noopener noreferrer">
             <motion.button 
               className="px-8 py-2 mt-4 mr-8 bg-[#00df9a] text-black font-semibold rounded-md hover:bg-[#00c88a] transition-colors"
               whileHover={{ scale: 1.05 }}
@@ -90,22 +90,19 @@ const keyki = () => {
                 <RiRadioButtonFill className="pr-1 text-[#00df9a]" /> Custom Hooks
               </p>
               <p className="flex items-center text-gray-300">
-                <RiRadioButtonFill className="pr-1 text-[#00df9a]" /> Redux
+                <RiRadioButtonFill className="pr-1 text-[#00df9a]" /> Firebase
               </p>
               <p className="flex items-center text-gray-300">
-                <RiRadioButtonFill className="pr-1 text-[#00df9a]" /> Redux Toolkit
+                <RiRadioButtonFill className="pr-1 text-[#00df9a]" /> Google Maps API
               </p>
-              <p className="flex items-center text-gray-300">
-                <RiRadioButtonFill className="pr-1 text-[#00df9a]" /> Redux-saga
-              </p>
-              <p className="flex items-center text-gray-300">
-                <RiRadioButtonFill className="pr-1 text-[#00df9a]" /> Video Player Integration
-              </p>
-              <p className="flex items-center text-gray-300">
+               <p className="flex items-center text-gray-300">
                 <RiRadioButtonFill className="pr-1 text-[#00df9a]" /> REST APIs
               </p>
                <p className="flex items-center text-gray-300">
-                <RiRadioButtonFill className="pr-1 text-[#00df9a]" /> Google API
+                <RiRadioButtonFill className="pr-1 text-[#00df9a]" /> Bug Fixing
+              </p>
+               <p className="flex items-center text-gray-300">
+                <RiRadioButtonFill className="pr-1 text-[#00df9a]" /> Code Reviews
               </p>
             </div>
           </div>
@@ -118,4 +115,4 @@ const keyki = () => {
   );
 };
 
-export default keyki;
+export default refill;

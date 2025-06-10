@@ -3,6 +3,8 @@ import { motion } from 'framer-motion';
 import keykiImg from '../public/assets/projects/keyki2.png';
 import refillImg from '../public/assets/projects/refill.png';
 import placeholderImg from '../public/assets/projects/placeholder.png';
+import normandyImg from '../public/assets/projects/normandy.png';
+import dmkAdvisorImg from '../public/assets/projects/dmk.png';
 
 import ProjectItem from './ProjectItem';
 
@@ -25,7 +27,7 @@ const Projects = () => {
      {
       title: 'Normandy (CMS)',
       description: 'An insurance platform with admin and user-side apps. Built a React-based admin panel (CMS) with Ant Design, streamlining data management. Improved website UI, ensured maintainability, and integrated REST APIs.',
-      backgroundImg: placeholderImg,
+      backgroundImg: normandyImg,
       projectUrl: '/projects/normandy',
       technologies: ['React', 'Ant Design', 'REST APIs', 'CMS']
     },
@@ -39,7 +41,7 @@ const Projects = () => {
      {
       title: 'DMK-Advisor Group, Inc. (CMS)',
       description: 'Developed a React-based admin panel (CMS) with useSWR, useDebounce, and Ant Design for efficient data management. Designed and implemented client/server-side pagination and search functionalities. Achieved data migration and integrated REST APIs.',
-      backgroundImg: placeholderImg,
+      backgroundImg: dmkAdvisorImg,
       projectUrl: '/projects/dmk-advisor',
       technologies: ['React', 'Ant Design', 'useSWR', 'useDebounce', 'REST APIs', 'Pagination', 'Search Functionality', 'Data Migration', 'CMS']
     },

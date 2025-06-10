@@ -14,27 +14,27 @@ const Contact = () => {
   const socialLinks = [
     {
       icon: <FaLinkedinIn size={25} />,
-      href: "https://www.linkedin.com/in/mujahid-ali-b852461b5/",
+      href: "https://www.linkedin.com/in/mujahid-ali-8a4a76369/",
       label: "LinkedIn"
     },
     {
       icon: <FaGithub size={25} />,
-      href: "https://github.com/mujahidali4997",
+      href: "https://github.com/Mujahid6612",
       label: "GitHub"
     },
     {
       icon: <AiOutlineMail size={25} />,
-      href: "mailto:your.email@example.com",
+      href: "mailto:mujahidali6612@gmail.com",
       label: "Email"
     },
     {
       icon: <AiFillPhone size={25} />,
-      href: "tel:+923264584330",
+      href: "tel:+923114103274",
       label: "Phone"
     },
     {
       icon: <AiOutlineWhatsApp size={25} />,
-      href: "https://wa.me/923264584330",
+      href: "https://wa.me/923114103274",
       label: "WhatsApp"
     }
   ];
@@ -78,15 +78,15 @@ const Contact = () => {
               <motion.div
                 whileHover={{ scale: 1.02 }}
                 transition={{ duration: 0.3 }}
-                className="relative overflow-hidden rounded-xl group"
+                className="relative overflow-hidden rounded-xl group flex justify-center items-center"
               >
                 <div className="absolute inset-0 bg-gradient-to-r from-[#00df9a]/10 to-purple-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <Image
                   className="rounded-xl transform transition-transform duration-300 group-hover:scale-[1.02]"
-                  src="/assets/CV.jpg"
+                  src="/assets/navLogo.png"
                   alt="Contact Me"
-                  width={500}
-                  height={300}
+                  width={250}
+                  height={250}
                   objectFit="cover"
                 />
               </motion.div>
