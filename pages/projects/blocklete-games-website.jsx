@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import blockleteGamesWebsiteImg from "../../public/assets/projects/placeholder.png"; // Placeholder image
+import blockleteGamesWebsiteImg from "../../public/assets/projects/blocklete-web.png"; // Placeholder image
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -49,7 +49,7 @@ const blockleteGamesWebsite = () => {
             I contributed to the development of the Blocklete Games website, which was built using Next.js, TypeScript, and Storybook. My responsibilities included fixing website UI issues, writing maintainable code and components for improved user experience, and addressing bugs and adding new features and pages. I also participated in code reviews and defined code conventions to ensure code quality and consistency. The website integrated REST APIs for data communication.
           </p>
           {/* Add a link to the demo if available */}
-          {/* <a target="_blank" href="YOUR_DEMO_LINK_HERE" rel="noopener noreferrer">
+          <a target="_blank" href="https://www.blockletegames.com/" rel="noopener noreferrer">
             <motion.button 
               className="px-8 py-2 mt-4 mr-8 bg-[#00df9a] text-black font-semibold rounded-md hover:bg-[#00c88a] transition-colors"
               whileHover={{ scale: 1.05 }}
@@ -57,7 +57,7 @@ const blockleteGamesWebsite = () => {
             >
               Demo
             </motion.button>
-          </a> */}
+          </a>
            {/* Add a link to the code if available */}
           {/* <a target="_blank" href="YOUR_CODE_LINK_HERE" rel="noopener noreferrer">
             <motion.button 

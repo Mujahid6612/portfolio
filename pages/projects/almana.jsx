@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import almanaImg from "../../public/assets/projects/placeholder.png"; // Placeholder image
+import almanaImg from "../../public/assets/projects/almana.png"; // Placeholder image
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -49,7 +49,7 @@ const almana = () => {
             Almana is a medical application developed for a hospital in Saudi Arabia, serving both desktop and mobile users. The project included building an Admin panel using ReactJS and a Mobile app with React Native. I contributed to code review and worked with technologies such as React Hooks and Custom Hooks. I was involved in the ReactJS and React-Native CLI setup and integrated remote and local notifications. Additionally, I participated in bug fixes and code reviews to ensure the application's quality and performance.
           </p>
           {/* Add a link to the demo if available */}
-          {/* <a target="_blank" href="YOUR_DEMO_LINK_HERE" rel="noopener noreferrer">
+          <a target="_blank" href="https://www.almanahospital.com.sa/" rel="noopener noreferrer">
             <motion.button 
               className="px-8 py-2 mt-4 mr-8 bg-[#00df9a] text-black font-semibold rounded-md hover:bg-[#00c88a] transition-colors"
               whileHover={{ scale: 1.05 }}
@@ -57,7 +57,7 @@ const almana = () => {
             >
               Demo
             </motion.button>
-          </a> */}
+          </a>
            {/* Add a link to the code if available */}
           {/* <a target="_blank" href="YOUR_CODE_LINK_HERE" rel="noopener noreferrer">
             <motion.button 
