@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import dmkAdvisorImg from "../../public/assets/projects/placeholder.png"; // Placeholder image
+import dmkAdvisorImg from "../../public/assets/projects/dmkcms.png"; // Placeholder image
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -49,7 +49,7 @@ const dmkAdvisor = () => {
             This project involved developing a React-based admin panel (CMS) for DMK-Advisor Group, Inc. using Ant Design. I implemented efficient data management features, including client/server-side pagination and search functionalities. The CMS utilized `useSWR` and `useDebounce` for data fetching and handling. I also played a role in achieving data migration and integrated REST APIs to connect with the backend services.
           </p>
           {/* Add a link to the demo if available */}
-          {/* <a target="_blank" href="YOUR_DEMO_LINK_HERE" rel="noopener noreferrer">
+          <a target="_blank" href="https://www.dmkadvisorgroup.com/" rel="noopener noreferrer">
             <motion.button 
               className="px-8 py-2 mt-4 mr-8 bg-[#00df9a] text-black font-semibold rounded-md hover:bg-[#00c88a] transition-colors"
               whileHover={{ scale: 1.05 }}
@@ -57,7 +57,7 @@ const dmkAdvisor = () => {
             >
               Demo
             </motion.button>
-          </a> */}
+          </a>
            {/* Add a link to the code if available */}
           {/* <a target="_blank" href="YOUR_CODE_LINK_HERE" rel="noopener noreferrer">
             <motion.button 

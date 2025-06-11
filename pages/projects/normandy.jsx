@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import normandyImg from "../../public/assets/projects/placeholder.png"; // Placeholder image
+import normandyImg from '../../public/assets/projects/normandy.png';
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -49,7 +49,7 @@ const normandy = () => {
             Normandy is an insurance platform that includes both admin and user-side applications. I contributed to building a React-based admin panel (CMS) using Ant Design. This CMS was designed to streamline data management and saving time. I was involved in improving the website UI, ensuring maintainability of the codebase, and integrating REST APIs for data communication. This project allowed me to work on both the administrative and user interfaces of a complex application.
           </p>
           {/* Add a link to the demo if available */}
-          {/* <a target="_blank" href="YOUR_DEMO_LINK_HERE" rel="noopener noreferrer">
+          <a target="_blank" href="https://www.normandyins.com/" rel="noopener noreferrer">
             <motion.button 
               className="px-8 py-2 mt-4 mr-8 bg-[#00df9a] text-black font-semibold rounded-md hover:bg-[#00c88a] transition-colors"
               whileHover={{ scale: 1.05 }}
@@ -57,7 +57,7 @@ const normandy = () => {
             >
               Demo
             </motion.button>
-          </a> */}
+          </a>
            {/* Add a link to the code if available */}
           {/* <a target="_blank" href="YOUR_CODE_LINK_HERE" rel="noopener noreferrer">
             <motion.button 

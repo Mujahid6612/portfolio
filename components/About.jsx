@@ -1,6 +1,12 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { FaReact, FaMobile, FaCode, FaGithub, FaLinkedin } from "react-icons/fa";
+import {
+  FaReact,
+  FaMobile,
+  FaCode,
+  FaGithub,
+  FaLinkedin,
+} from "react-icons/fa";
 import { SiTypescript, SiRedux, SiFirebase, SiNextdotjs } from "react-icons/si";
 
 const About = () => {
@@ -35,7 +41,10 @@ const About = () => {
   };
 
   return (
-    <div id="about" className="w-full min-h-screen px-3 flex items-center py-16 relative overflow-hidden">
+    <div
+      id="about"
+      className="w-full min-h-screen px-3 flex items-center py-16 relative overflow-hidden"
+    >
       {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute -inset-[10px] opacity-30">
@@ -46,7 +55,7 @@ const About = () => {
       </div>
 
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8 relative z-10">
-        <motion.div 
+        <motion.div
           className="col-span-2"
           initial={{ opacity: 0, x: -50 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -69,20 +78,29 @@ const About = () => {
             whileInView="visible"
             viewport={{ once: true }}
           >
-            <motion.p variants={itemVariants} className="py-4 text-gray-300 text-lg leading-relaxed">
-              I'm a Front-End Developer with 4+ years of professional experience building responsive, 
-              high-performance web and mobile applications. Currently working at Foreaims as a React/React Native 
-              Developer, where I contribute to the development of cross-platform apps with real-time features 
-              like chat, location tracking, and CMS tools.
+            <motion.p
+              variants={itemVariants}
+              className="py-4 text-gray-300 text-lg leading-relaxed"
+            >
+              I'm a Front-End Developer with 4+ years of professional experience
+              building responsive, high-performance web and mobile applications.
+              Currently working at Foreaims as a React/React Native Developer,
+              where I contribute to the development of cross-platform apps with
+              real-time features like chat, location tracking, and CMS tools.
             </motion.p>
-            <motion.p variants={itemVariants} className="py-4 text-gray-300 text-lg leading-relaxed">
-              My expertise spans across React.js, Next.js, and React Native (Expo & CLI), with a strong focus 
-              on TypeScript, Redux Toolkit, and modern state management solutions. I'm passionate about creating 
-              scalable component architectures and optimizing app performance while maintaining clean code practices.
+            <motion.p
+              variants={itemVariants}
+              className="py-4 text-gray-300 text-lg leading-relaxed"
+            >
+              My expertise spans across React.js, Next.js, and React Native
+              (Expo & CLI), with a strong focus on TypeScript, Redux Toolkit,
+              and modern state management solutions. I'm passionate about
+              creating scalable component architectures and optimizing app
+              performance while maintaining clean code practices.
             </motion.p>
           </motion.div>
-          
-          <motion.div 
+
+          <motion.div
             className="grid grid-cols-2 md:grid-cols-3 gap-4 py-8"
             variants={containerVariants}
             initial="hidden"
@@ -108,7 +126,7 @@ const About = () => {
             transition={{ delay: 0.5 }}
             className="flex gap-4 mt-6"
           >
-            <motion.a 
+            <motion.a
               href="/#projects"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
@@ -116,8 +134,8 @@ const About = () => {
             >
               View Projects
             </motion.a>
-            <motion.a 
-              href="https://github.com/yourusername"
+            <motion.a
+              href="https://github.com/Mujahid6612"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}
@@ -127,8 +145,8 @@ const About = () => {
               <FaGithub className="inline-block mr-2" />
               GitHub
             </motion.a>
-            <motion.a 
-              href="https://linkedin.com/in/yourusername"
+            <motion.a
+              href="https://www.linkedin.com/in/mujahid-ali-8a4a76369/"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}
@@ -141,7 +159,7 @@ const About = () => {
           </motion.div>
         </motion.div>
 
-        <motion.div 
+        <motion.div
           className="w-full h-auto m-auto shadow-xl shadow-[#00df9a]/20 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300 relative group"
           initial={{ opacity: 0, x: 50 }}
           whileInView={{ opacity: 1, x: 0 }}

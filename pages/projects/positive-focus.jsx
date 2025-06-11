@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import positiveFocusImg from "../../public/assets/projects/placeholder.png"; // Placeholder image
+import positiveFocusImg from "../../public/assets/projects/positiveFocus.png"; // Placeholder image
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 import { motion } from "framer-motion";
