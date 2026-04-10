@@ -11,8 +11,8 @@ export default function Home() {
   return (
     <div className='bg-black'>
       <Head>
-        <title>Mujahid Ali | Front-End Developer</title>
-        <meta name="description" content="Versatile Front-End Developer with 4+ years of experience." />
+        <title>Mujahid Ali | Senior Software Engineer</title>
+        <meta name="description" content="Senior Software Engineer with 4+ years building web and mobile apps with React, Next.js, React Native, and Playwright." />
         <link rel="icon" href="/fav.png" />
       </Head>
       <Main />

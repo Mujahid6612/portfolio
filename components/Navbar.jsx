@@ -39,7 +39,7 @@ const Navbar = () => {
   return (
     <div
       style={{ backgroundColor: `${navBg}` }}
-      className={`fixed w-full h-20 z-[100] transition-all duration-300 ${
+      className={`no-print fixed w-full h-20 z-[100] transition-all duration-300 ${
         shadow
           ? "bg-black/90 backdrop-blur-md shadow-lg shadow-[#00df9a]/20"
           : "bg-black/80 backdrop-blur-sm"
@@ -125,7 +125,7 @@ const Navbar = () => {
             </div>
             <div className="border-b border-gray-700 my-4">
               <p className="w-[85%] md:w-[90%] py-4 text-gray-300">
-                Versatile Front-End Developer
+                Senior Software Engineer · React · React Native
               </p>
             </div>
           </div>
@@ -163,7 +163,7 @@ const Navbar = () => {
               <div className="flex items-center justify-between my-8 w-full sm:w-[80%]">
                 {[
                   {
-                    href: "https://www.linkedin.com/in/mujahid-ali-b852461b5/",
+                    href: "https://www.linkedin.com/in/mujahid-ali-64aa283ab/",
                     icon: <FaLinkedinIn />,
                     external: true,
                   },

@@ -14,7 +14,7 @@ const Contact = () => {
   const socialLinks = [
     {
       icon: <FaLinkedinIn size={25} />,
-      href: "https://www.linkedin.com/in/mujahid-ali-8a4a76369/",
+      href: "https://www.linkedin.com/in/mujahid-ali-64aa283ab/",
       label: "LinkedIn"
     },
     {
@@ -92,7 +92,7 @@ const Contact = () => {
               </motion.div>
               <div className="mt-8">
                 <h2 className="py-2 text-white text-2xl font-bold">Mujahid Ali</h2>
-                <p className="text-[#00df9a] text-xl font-semibold">Front-End Developer</p>
+                <p className="text-[#00df9a] text-xl font-semibold">Senior Software Engineer</p>
                 <p className="py-4 text-gray-300">
                   I am available for freelance or full-time positions. Let's create something amazing together.
                 </p>

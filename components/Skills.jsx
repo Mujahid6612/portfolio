@@ -283,8 +283,8 @@ const Skills = () => {
           </p>
           <h2 className="py-4 text-4xl font-bold text-white">What I Can Do</h2>
           <p className="py-4 text-gray-300 text-lg max-w-[700px] mx-auto">
-            With 4+ years of experience, I have developed a strong skill set in
-            various front-end and back-end technologies.
+            With 4+ years of experience, I have built a strong skill set across
+            front-end, mobile, QA automation, and supporting backend work.
           </p>
         </motion.div>
 

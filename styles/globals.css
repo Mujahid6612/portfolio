@@ -60,3 +60,20 @@ html {
 .animation-delay-4000 {
   animation-delay: 4s;
 }
+
+/* Resume: hide site chrome when printing / saving to PDF */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+
+  @page {
+    margin: 14mm;
+  }
+
+  body {
+    background: white !important;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+}

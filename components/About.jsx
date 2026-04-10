@@ -82,21 +82,22 @@ const About = () => {
               variants={itemVariants}
               className="py-4 text-gray-300 text-lg leading-relaxed"
             >
-              I'm a Front-End Developer with 4+ years of professional experience
-              building responsive, high-performance web and mobile applications.
-              Currently working at Foreaims as a React/React Native Developer,
-              where I contribute to the development of cross-platform apps with
-              real-time features like chat, location tracking, and CMS tools.
+              I'm a Senior Software Engineer with 4+ years of professional
+              experience shipping web and mobile products. At Softaims I work
+              remotely from idea to production-ready software, balancing solid
+              backend logic with polished front-end experiences. I also
+              contribute at ForeAims on React and React Native builds plus QA
+              automation with Playwright.
             </motion.p>
             <motion.p
               variants={itemVariants}
               className="py-4 text-gray-300 text-lg leading-relaxed"
             >
-              My expertise spans across React.js, Next.js, and React Native
-              (Expo & CLI), with a strong focus on TypeScript, Redux Toolkit,
-              and modern state management solutions. I'm passionate about
-              creating scalable component architectures and optimizing app
-              performance while maintaining clean code practices.
+              My toolkit centers on React.js, Next.js, and React Native (Expo &
+              CLI), with TypeScript, Redux Toolkit, and modern state management.
+              I care about scalable components, performance, and maintainable
+              code—whether I'm pairing with design and product or reviewing with
+              the team.
             </motion.p>
           </motion.div>
 
@@ -146,7 +147,7 @@ const About = () => {
               GitHub
             </motion.a>
             <motion.a
-              href="https://www.linkedin.com/in/mujahid-ali-8a4a76369/"
+              href="https://www.linkedin.com/in/mujahid-ali-64aa283ab/"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}

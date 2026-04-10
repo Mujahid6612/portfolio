@@ -3,8 +3,6 @@ import React, { useState, useEffect } from "react";
 import Typed from "react-typed";
 import { motion } from "framer-motion";
 import {
-  FaGithub,
-  FaLinkedinIn,
   FaCode,
   FaReact,
   FaJs,
@@ -115,13 +113,13 @@ const Main = () => {
               </span>
             </h1>
             <h2 className="py-2 md:text-4xl sm:text-3xl text-gray-300 font-medium">
-              Front-End Developer
+              Senior Software Engineer
             </h2>
             <p className="py-6 text-gray-300 max-w-[700px] m-auto text-lg leading-relaxed">
-              Versatile Front-End Developer with 4+ years of experience building
-              responsive, high-performance web and mobile applications using
-              React.js, Next.js, and React Native. Specializing in TypeScript,
-              Redux Toolkit, and real-time features.
+              Senior Software Engineer with 4+ years building production web and
+              mobile apps—React.js, Next.js, React Native, and Playwright QA
+              automation. I focus on clear architecture, performance, and shipping
+              features that feel as good as they function.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 max-w-[330px] m-auto py-4">
               <Link href={"/resume"}>

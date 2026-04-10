@@ -1,57 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FaBriefcase, FaMapMarkerAlt, FaCalendarAlt } from "react-icons/fa";
+import { workExperience } from "../data/workExperience";
 
 const Experience = () => {
-  const workExperience = [
-    {
-      company: "Foreaims",
-      location: "Lahore, Pakistan",
-      role: "React JS / Next JS / React Native Frontend Developer",
-      duration: "Joined 09/2022 - Present",
-      responsibilities: [
-        "Contributed to the React Native app LoGo. This was an app like Ubar, implementing sockets, REST APIs, one-to-one chat, and real-time location tracking.",
-        "Collaborated on code review and mentored peers in clean coding practices.",
-      ],
-    },
-    {
-      company: "Vision-X | Package X",
-      location: "Islamabad",
-      role: "React Frontend Developer",
-      duration: "02/2022 - 08/2022",
-      responsibilities: [
-        "Contributed to building a Web application named Fabric, which is a CMS to manage the web app UI and different layouts",
-        "I worked on React Hooks, Custom Hooks, MUI, Redux, and Vue.js.",
-        "Enhanced UI/UX by fixing issues and aligning with Figma designs.",
-        "Collaborated on bug fixes, feature additions, and code reviews, ensuring adherence to coding standards.",
-      ],
-    },
-    {
-      company: "ASSENCO-ME | Fayha",
-      location: "Jeddah, Saudi Arabia (Remote)",
-      role: "React-Native Frontend Developer",
-      duration: "09/2021 - 01/2022",
-      responsibilities: [
-        "Developed a private medicine distribution/buying app called Refill using React Hooks, Custom Hooks, Firebase, and Google Maps APIs.",
-        "Enhanced UI/UX by fixing issues and aligning with Figma designs.",
-        "Collaborated on bug fixes, feature additions, and code reviews, ensuring adherence to coding standards.",
-      ],
-    },
-    {
-      company: "PIKES SOFT",
-      location: "Lahore, Pakistan",
-      role: "React-Native Frontend Developer",
-      duration: "01/2021 - 08/2021",
-      responsibilities: [
-        "Developed React Native applications, KEYKI and Almana, focusing on React-hooks, Redux, Redux Toolkit, Redux-saga, and video player integration.",
-        "Improved app performance by optimizing React Native code to minimize unnecessary re-rendering.",
-        "Designed and implemented a carousel component for image display, enhancing user engagement.",
-        "Contributed to code reviews and coding conventions, providing constructive feedback to team members.",
-        "Integrate the REST APIs.",
-      ],
-    },
-  ];
-
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
