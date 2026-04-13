@@ -1,17 +1,6 @@
 /** Shared work history — used by Experience and Resume pages */
 export const workExperience = [
   {
-    company: "Softaims",
-    location: "Austin, Texas, United States · Remote",
-    role: "Senior Software Engineer",
-    duration: "Feb 2024 - Present",
-    responsibilities: [
-      "Turn early-stage ideas into reliable, production-ready software while leveling up on new problems each sprint.",
-      "Work across clean backend logic and thoughtful front ends, with a focus on scalability, performance, and clarity.",
-      "Partner with designers, product, and engineers to ship features that work well and feel right to use.",
-    ],
-  },
-  {
     company: "ForeAims",
     location: "Lahore, Punjab, Pakistan · Hybrid",
     role: "Senior Software Engineer · QA Automation (Playwright) · React · React Native",
